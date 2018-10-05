@@ -1,0 +1,24 @@
+.default-button {
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-image: -webkit-gradient(linear,left top, right top,from(#3ec7e0),to(#526bf4));
+    background-image: linear-gradient(to right,#3ec7e0,#526bf4);
+    border-radius: 3rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2rem;
+    padding: 0.25rem 1.25rem;
+    box-shadow: none;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+        background-image: -webkit-gradient(linear,left top, right top,from(#e052a0),to(#f15c41));
+        background-image: linear-gradient(to right,#e052a0,#f15c41);
+    }
+}
