@@ -13,7 +13,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/avatar-round.png', // This path is relative to the root of the site.
+        icon: 'src/images/avatar-round.png',
       },
     },
     'gatsby-plugin-offline',
@@ -30,16 +30,16 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
-    {
-      resolve: "gatsby-plugin-guess-js",
-      options: {
-        GAViewID: `182615318`,
-        minimumThreshold: 0.03,
-        period: {
-          startDate: new Date("2018-1-1"),
-          endDate: new Date(),
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-guess-js",
+    //   options: {
+    //     GAViewID: `182615318`,
+    //     minimumThreshold: 0.03,
+    //     period: {
+    //       startDate: new Date("2018-1-1"),
+    //       endDate: new Date(),
+    //     },
+    //   },
+    // },
   ],
 }
