@@ -11,14 +11,8 @@ const Contact = () => (
         If you have any inquiries or just want to say hi, fill out the form
         below or send an email to Mark@MarkMurphy.io and let's chat.
       </p>
-      <form
-        name="contact"
-        method="POST"
-        action="/success"
-        netlify-honeypot="bot-field"
-        data-netlify="true"
-      >
-        <input type="hidden" name="bot-field" />
+      <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="contact" value="contact" />
         <div className="field half first">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" placeholder="Name"/>
