@@ -16,7 +16,7 @@ const Contact = () => (
         method="POST"
         action="/success"
         netlify-honeypot="bot-field"
-        netlify
+        data-netlify="true"
       >
         <input type="hidden" name="bot-field" />
         <div className="field half first">
