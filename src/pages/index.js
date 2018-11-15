@@ -13,13 +13,14 @@ const IndexPage = () => (
           </div>
           <div className='terminalScreen'>
             <TypeWriter elementId={'terminal-line-1'} startDelay={0} strings={['Hi there!']}/>
-            <TypeWriter elementId={'terminal-line-2'} startDelay={2000} strings={['My name is <a href="https://www.linkedin.com/in/markrmurphy/" target="_blank">Mark Murphy</a>.']}/>
-            <TypeWriter elementId={'terminal-line-3'} startDelay={4500} strings={['I\'m a Full-Stack Web Developer.']}/>
-            <TypeWriter elementId={'terminal-line-4'} startDelay={7500} strings={['My primary stack is C#, ASP.NET Core, and SQL Server.']}/>
-            <TypeWriter elementId={'terminal-line-5'} startDelay={12500} strings={['Most recently I\'ve been diving into ReactJS.']}/>
-            <TypeWriter elementId={'terminal-line-6'} startDelay={17000} strings={['I\'m also the Director of <a href="https://fullyequipped.co/" target="_blank">FullyEquipped</a>.']}/>
-            <TypeWriter elementId={'terminal-line-7'} startDelay={21000} strings={['Want to chat? Feel free to <a href="/contact/">reach out</a>.']}/>
-            <TypeWriter elementId={'terminal-line-8'} startDelay={25000} strings={['Have a great day and God bless! :)']}/>
+            <TypeWriter elementId={'terminal-line-2'} startDelay={1500} strings={['My name is <a href="https://www.linkedin.com/in/markrmurphy/">Mark Murphy</a>.']}/>
+            <TypeWriter elementId={'terminal-line-3'} startDelay={3500} strings={['I\'m a Full-Stack Web Developer.']}/>
+            <TypeWriter elementId={'terminal-line-5'} startDelay={6000} strings={['I love to help businesses by leveraging technology.']}/>
+            <TypeWriter elementId={'terminal-line-4'} startDelay={10000} strings={['Check out some of my work <a href="/portfolio">here</a>.']}/>
+            <TypeWriter elementId={'terminal-line-6'} startDelay={13000} strings={['I\'m also the Director of <a href="https://fullyequipped.co/">FullyEquipped</a>.']}/>
+            <TypeWriter elementId={'terminal-line-7'} startDelay={16000} strings={['Want to chat?']}/>
+            <TypeWriter elementId={'terminal-line-8'} startDelay={17500} strings={['Feel free to <a href="/contact/">reach out</a>.']}/>
+            <TypeWriter elementId={'terminal-line-9'} startDelay={20000} strings={['Thanks for stopping by!']}/>
           </div>
         </div>
   </Layout>

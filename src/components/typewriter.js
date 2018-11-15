@@ -7,7 +7,7 @@ class TypeWriter extends React.Component {
       const { strings, startDelay, elementId } = this.props;
       const options = {
         strings: strings,
-        typeSpeed: 50,
+        typeSpeed: 40,
         backSpeed: 50,
         cursorChar: '_',
         showCursor: false,

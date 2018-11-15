@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaTwitter, FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
+import { FaTwitter, FaGithub, FaLinkedin, FaStackOverflow, FaFolder, FaEnvelope } from 'react-icons/fa';
 import './header.scss';
 
 const Header = ({ siteTitle }) => (
@@ -13,6 +13,12 @@ const Header = ({ siteTitle }) => (
         </h3>
       </Link>  
       <div className='header-links'>
+        <a href="/portfolio">
+          <FaFolder />
+        </a>
+        <a href="/contact">
+          <FaEnvelope />
+        </a>
         <a href="https://twitter.com/MarkMurphy37">
           <FaTwitter />
         </a>
