@@ -15,7 +15,9 @@ const Contact = () => (
         method="post"
         action="/success"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div className="field half first">
           <label className="form-field-label" htmlFor="name">
             Name
