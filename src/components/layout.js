@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from './header';
-import './layout.scss';
+import '../scss/components/layout.scss';
 import Particles from 'react-particles-js';
 
 
-const Layout = ({ children }) => (
+const Layout = ({ children, url }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} activeUrl={url} />
         <Particles 
                 className='particles'
                 params={{

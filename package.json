@@ -4,19 +4,19 @@
   "version": "1.0.0",
   "author": "Mark Murphy <MarkRMurphy37@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.0",
-    "gatsby-plugin-google-analytics": "^2.0.6",
-    "gatsby-plugin-guess-js": "^1.0.0",
-    "gatsby-plugin-manifest": "^2.0.2",
-    "gatsby-plugin-offline": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sass": "^2.0.1",
-    "node-sass": "^4.9.3",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "gatsby": "^2.0.55",
+    "gatsby-plugin-google-analytics": "^2.0.7",
+    "gatsby-plugin-guess-js": "^1.0.2",
+    "gatsby-plugin-manifest": "^2.0.10",
+    "gatsby-plugin-offline": "^2.0.17",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.4",
+    "node-sass": "^4.10.0",
+    "react": "next",
+    "react-dom": "next",
     "react-helmet": "^5.2.0",
-    "react-icons": "^3.1.0",
-    "react-particles-js": "^2.3.0",
+    "react-icons": "^3.2.2",
+    "react-particles-js": "^2.4.2",
     "typed.js": "^2.0.9"
   },
   "keywords": [
@@ -30,7 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^1.15.2"
   },
   "repository": {
     "type": "git",

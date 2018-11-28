@@ -1,10 +1,10 @@
 import React from 'react'
 import Button from '../components/button'
 import Layout from '../components/layout'
-import './contact.scss'
+import '../scss/pages/contact.scss'
 
 const Contact = () => (
-  <Layout>
+  <Layout url={'/contact'}>
     <div className="contact-form">
       <h1>Contact Me</h1>
       <p>

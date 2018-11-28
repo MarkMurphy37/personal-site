@@ -1,0 +1,21 @@
+.index-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .index-header {
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            margin: 0 0 0.5rem 0;
+        }
+        h2 {
+            margin: 0 0 2rem 0;
+        }
+    }
+}

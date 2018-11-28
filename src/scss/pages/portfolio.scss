@@ -1,0 +1,28 @@
+.portfolio-wrapper {
+  .portfolio-item {
+    background-color: #1f364d;
+    margin: 0 0 2rem 0;
+    padding: 1.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media only screen and (max-width: 480px) {
+      grid-template-columns: 1fr;
+    }
+
+    .portfolio-image {
+      img {
+        width: 100%;
+        &:hover {
+          transform: scale(1.025);
+        }
+      }
+    }
+
+    .portfolio-story {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

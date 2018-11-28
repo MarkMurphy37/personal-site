@@ -1,0 +1,63 @@
+.header-wrapper {
+    background: #1f364d;
+    margin-bottom: '1.5rem';
+
+    .header-content {
+        margin: 0 auto;
+        padding: 1rem 1.45rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .header-links {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            color: #9cb3c9;
+            margin-left: 1rem;
+            text-decoration: none;
+
+            &.active {
+                color: #fff;
+            }
+
+            &:hover {
+                color: #fff;
+            }
+
+            svg {
+                vertical-align: middle;
+            }
+        }
+    }
+    
+    .header-title {
+        display: flex;
+        color: #9cb3c9;
+        text-decoration: none;
+
+        &.active {
+            color: #ffffff;
+        }
+    
+        .header-avatar {
+            margin: 0;
+            background: center / contain no-repeat url("../../images/avatar-casual-round.png");
+            height: 35px;
+            width: 35px;
+        }
+    
+        h3 {
+            margin: 4px 1rem 0 1rem;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+

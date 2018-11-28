@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'typed.js';
-
+import '../scss/components/typewriter.scss';
 class TypeWriter extends React.Component {
    
     componentDidMount() {
@@ -25,7 +25,7 @@ class TypeWriter extends React.Component {
   
     render() {
       return (
-        <div id={this.props.elementId} className='display-none terminal-line'>mark@markmurphy ~$&nbsp;
+        <div id={this.props.elementId}>
             <span className='typewriter-text'
               ref={(el) => { this.el = el; }}
             />
