@@ -1,21 +1,20 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 import {
   FaGithub,
   FaLinkedin,
   FaFolder,
   FaEnvelope,
   FaUserCircle,
-} from 'react-icons/fa'
-import '../scss/components/header.scss'
-import { cold } from 'react-hot-loader'
+} from 'react-icons/fa';
+import '../scss/components/header.scss';
 
 const links = [
-  {text: 'About', url: '/about', icon: <FaUserCircle/>},
-  {text: 'Contact', url: '/contact', icon: <FaEnvelope/>},
-  {text: 'GitHub', url: 'https://github.com/MarkMurphy37', icon: <FaGithub/>},
-  {text: 'LinkedIn', url: 'https://www.linkedin.com/in/markrmurphy/', icon: <FaLinkedin/>},
-  {text: 'Portfolio', url: '/portfolio', icon: <FaFolder/>},
+  {id: 1, text: 'About', url: '/about', icon: <FaUserCircle/>},
+  {id: 2, text: 'Contact', url: '/contact', icon: <FaEnvelope/>},
+  {id: 3, text: 'GitHub', url: 'https://github.com/MarkMurphy37', icon: <FaGithub/>},
+  {id: 4, text: 'LinkedIn', url: 'https://www.linkedin.com/in/markrmurphy/', icon: <FaLinkedin/>},
+  {id: 5, text: 'Portfolio', url: '/portfolio', icon: <FaFolder/>},
 ];
 
 const Header = (props) => {
@@ -29,7 +28,7 @@ const Header = (props) => {
         </Link>
         <div className="header-links">
           {links.map(link => 
-            <Link to={link.url} className={link.url === props.activeUrl ? 'active' : ''}>
+            <Link key={link.id} to={link.url} className={link.url === props.activeUrl ? 'active' : ''}>
               {link.icon} {link.text}
             </Link>
           )}
@@ -39,4 +38,4 @@ const Header = (props) => {
   )
 }
 
-export default cold(Header)
+export default Header;
