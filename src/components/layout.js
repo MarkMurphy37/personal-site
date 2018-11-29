@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from './header';
 import '../scss/components/layout.scss';
+import '../scss/global.scss';
 import Particles from 'react-particles-js';
 
 
@@ -71,7 +72,7 @@ const Layout = ({ children, url }) => (
                       }
                     },
                     line_linked: {
-                      enable: true,
+                      enable: false,
                       distance: 150,
                       color: '#ffffff',
                       opacity: 0.4,
@@ -128,7 +129,7 @@ const Layout = ({ children, url }) => (
                         duration: 0.4
                       },
                       push: {
-                        particles_nb: 4
+                        particles_nb: 2
                       },
                       remove: {
                         particles_nb: 2

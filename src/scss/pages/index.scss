@@ -1,8 +1,11 @@
+@import "./src/scss/variables";
+
 .index-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
 
     .index-header {
         min-height: 150px;
@@ -16,6 +19,14 @@
         }
         h2 {
             margin: 0 0 2rem 0;
+        }
+    }
+
+    .index-links {
+        @include mobile-only {
+            a {
+                margin: 0.4rem;
+            }
         }
     }
 }

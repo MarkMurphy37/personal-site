@@ -7,11 +7,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'mark-murphy-personal-site',
+        short_name: 'markmurphy.io',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#0e2439',
+        theme_color: '#1f364d',
         display: 'minimal-ui',
         icon: 'src/images/avatar-casual-thumbnail.png',
       },
