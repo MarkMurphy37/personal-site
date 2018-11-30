@@ -35,14 +35,14 @@ const Header = props => {
               to={link.url}
               className={link.url === props.activeUrl ? 'active' : ''}
             >
-              {link.icon} {link.text}
+              {link.icon} <span>{link.text}</span>
             </Link>
           ))}
           <a href="https://www.linkedin.com/in/markrmurphy/">
-            <FaLinkedin /> LinkedIn
+            <FaLinkedin /> <span>LinkedIn</span>
           </a>
           <a href="https://github.com/MarkMurphy37">
-            <FaGithub /> GitHub
+            <FaGithub /> <span>GitHub</span>
           </a>
         </div>
       </div>

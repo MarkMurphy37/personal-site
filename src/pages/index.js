@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout url={'/'}>
     <div className='index-wrapper'>
       <div className='index-header'>
-        <TypeWriter elementId={'typewriter-line-1'} startDelay={1000} strings={['<h1>Mark Murphy</h1>']}/>
-        <TypeWriter elementId={'typewriter-line-2'} startDelay={2000} strings={['<h2>Software Developer</h2>']}/>
+        <h1><TypeWriter elementId={'typewriter-line-1'} startDelay={1000} strings={['Mark Murphy']}/></h1>
+        <h2><TypeWriter elementId={'typewriter-line-2'} startDelay={2000} strings={['Software Developer']}/></h2>
       </div>
       <div className='index-links'>
           <Link to="/about" className='default-button'>

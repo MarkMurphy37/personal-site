@@ -11,6 +11,12 @@ $navbar-height: 99px;
 	}
 }
 
+@mixin mobile-and-tablet-only {
+	@media (max-width : $md) {
+		@content;
+	}
+}
+
 @mixin desktop-only {
 	@media (min-width : $xl) {
 		@content;

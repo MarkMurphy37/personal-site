@@ -1,8 +1,12 @@
 .contact-form {
   padding: 1rem 0;
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
   max-width: 600px;
+
+  h1 {
+    text-align: center;
+  }
 
   .form-field-label {
     font-weight: 600;

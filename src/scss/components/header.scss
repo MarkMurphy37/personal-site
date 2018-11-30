@@ -1,3 +1,5 @@
+@import "./src/scss/variables";
+
 .header-wrapper {
     background: #1f364d;
     margin-bottom: '1.5rem';
@@ -20,6 +22,11 @@
             color: #9cb3c9;
             margin-left: 1rem;
             text-decoration: none;
+            @include mobile-and-tablet-only {
+                span {
+                    display: none;
+                }
+            }
 
             &.active {
                 color: #fff;
@@ -53,6 +60,9 @@
     
         h3 {
             margin: 4px 1rem 0 1rem;
+            @include mobile-and-tablet-only {
+                display: none;
+            }
 
             &:hover {
                 color: #fff;
