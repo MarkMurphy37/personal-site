@@ -3,8 +3,16 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
+$navbar-height: 99px;
+
 @mixin mobile-only {
 	@media (max-width : $sm) {
+		@content;
+	}
+}
+
+@mixin desktop-only {
+	@media (min-width : $xl) {
 		@content;
 	}
 }

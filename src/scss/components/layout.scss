@@ -1,21 +1,15 @@
-/* Layout #region */
 .layout-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 1rem;
-  min-height: calc(100vh - 98px);
+  position: absolute;
+  width: 100%;
+  min-height: calc(100% - 134px);
+  padding-bottom: 67px; 
+  display: grid;
 }
-/* #endregion */
 
-/* Particles #region */
 .particles {
   position: absolute;
   width: 100%;
-  height: calc(100% - 98px);
+  height: calc(100% - 71px);
+  z-index: -1;
 }
-/* #endregion */
-
 

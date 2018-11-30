@@ -1,8 +1,8 @@
 .contact-form {
+  padding: 1rem 0;
   margin: 0 auto;
   width: 95%;
   max-width: 600px;
-  z-index: 1;
 
   .form-field-label {
     font-weight: 600;
@@ -12,14 +12,12 @@
   .form-input {
     background-color: #1f364d;
     color: #dde1e4;
-    border-radius: 3px;
-    padding: 0.75rem;
-    text-overflow: ellipsis;
-    -webkit-transition: border-width 120ms;
-    transition: border-width 120ms;
-    width: 100%;
     border: 1px solid #0e2439;
+    border-radius: 3px;
+    padding: 1rem;
     margin: 0.5rem 0 1.5rem 0;
+    text-overflow: ellipsis;
+    width: 100%;
     outline: 0;
     resize: none;
     box-sizing: border-box;
