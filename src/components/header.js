@@ -6,13 +6,15 @@ import {
   FaFolder,
   FaEnvelope,
   FaUserCircle,
+  FaCommentDots
 } from 'react-icons/fa'
 import '../scss/components/header.scss'
 
 const links = [
   { id: 1, text: 'About', url: '/about', icon: <FaUserCircle /> },
-  { id: 2, text: 'Contact', url: '/contact', icon: <FaEnvelope /> },
-  { id: 3, text: 'Portfolio', url: '/portfolio', icon: <FaFolder /> },
+  { id: 2, text: 'Blog', url: '/blog', icon: <FaCommentDots /> },
+  { id: 3, text: 'Contact', url: '/contact', icon: <FaEnvelope /> },
+  { id: 4, text: 'Portfolio', url: '/portfolio', icon: <FaFolder /> },
 ]
 
 const Header = props => {

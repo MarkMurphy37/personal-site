@@ -13,7 +13,7 @@ const Portfolio = () => (
           />
         </div>
         <div className="portfolio-story">
-          This is test story about what I did for Pier & Co.
+          This is test story about what I did for MarkMurphy.io. Show technologies used here.
         </div>
       </div>
       <div className="portfolio-item">

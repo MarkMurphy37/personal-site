@@ -16,6 +16,9 @@ const IndexPage = () => (
           <Link to="/about" className='default-button'>
             About
           </Link>
+          <Link to="/blog" className='default-button'>
+            Blog
+          </Link>
           <Link to="/contact" className='default-button'>
             Contact
           </Link>

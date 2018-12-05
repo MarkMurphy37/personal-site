@@ -1,32 +1,39 @@
-@import "./src/scss/variables";
+@import './src/scss/variables';
 
 .index-wrapper {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 
-    .index-header {
-        min-height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+	.index-header {
+		min-height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 
-        h1 {
-            margin: 0 0 0.5rem 0;
-        }
-        h2 {
+		h1 {
+			margin: 0 0 0.5rem 0;
+		}
+		h2 {
             margin: 0 0 2rem 0;
-        }
-    }
-
-    .index-links {
-        @include mobile-only {
-            a {
-                margin: 0.4rem;
+            
+            @include mobile-only {
+                margin: 0 0 1rem 0; 
             }
-        }
-    }
+		}
+	}
+
+	.index-links {
+		@include mobile-only {
+			display: flex;
+			flex-direction: column;
+
+			a {
+				margin: 0.4rem;
+			}
+		}
+	}
 }

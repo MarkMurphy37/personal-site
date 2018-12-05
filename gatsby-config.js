@@ -13,7 +13,7 @@ module.exports = {
         background_color: '#0e2439',
         theme_color: '#1f364d',
         display: 'minimal-ui',
-        icon: 'src/images/avatar-casual-thumbnail.png',
+        icon: 'src/images/avatar-formal-thumbnail.png',
       },
     },
     'gatsby-plugin-offline',
@@ -28,6 +28,14 @@ module.exports = {
         exclude: ["/localhost/**"],
         sampleRate: 5,
         siteSpeedSampleRate: 10,
+      },
+    },
+    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/blog`,
+        name: "blog",
       },
     },
     // {

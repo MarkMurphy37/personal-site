@@ -8,7 +8,7 @@ const Contact = () => (
     <div className="contact-form">
       <h1>Contact Me</h1>
       <p>
-        If you have any business inquiries or just want to say hi, fill out the form below or email me at <strong>Mark@MarkMurphy.io</strong> and let's chat.
+        If you have any business inquiries or want to say hi, just fill out the form below or email me at <strong>Mark@MarkMurphy.io</strong> and let's chat.
       </p>
       <form
         name="contact"
