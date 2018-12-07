@@ -1,9 +1,9 @@
 .layout-wrapper {
   position: absolute;
   width: 100%;
-  min-height: calc(100% - 134px);
-  padding-bottom: 67px; 
+  min-height: calc(100% - 67px);
   display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 .particles {

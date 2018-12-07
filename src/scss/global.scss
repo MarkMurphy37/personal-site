@@ -8,11 +8,11 @@ body {
   height: 100%;
   margin: 0;
   background-color: #0e2439;
-  color: #ffffff;
+  color: #fcfcfc;
 }
 
 a {
-  color: #ffffff;
+  color: #fcfcfc;
   font-weight: bold;
   cursor: pointer;
 
@@ -27,7 +27,7 @@ a {
     padding: 0.5rem 1.25rem;
 
     &:hover {
-      color: #fff;
+      color: #fcfcfc;
     }
   }
 }

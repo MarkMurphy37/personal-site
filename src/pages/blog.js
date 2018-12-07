@@ -15,8 +15,8 @@ export default function Blog({ data }) {
 							<Link key={post.frontmatter.path} to={post.frontmatter.path}>
 								<div className="blog-post-preview" key={post.id}>
 									<h1>{post.frontmatter.title}</h1>
-									<h2>{post.frontmatter.date}</h2>
-									<p>{post.excerpt}</p>
+									<small>{post.frontmatter.date}</small>
+									<p>{post.frontmatter.description}</p>
 								</div>
 							</Link>
 						);
@@ -36,6 +36,7 @@ export const pageQuery = graphql`
 					frontmatter {
 						title
 						date(formatString: "MMMM DD, YYYY")
+						description
 						path
 					}
 				}
