@@ -31,6 +31,7 @@ module.exports = {
       },
     },
     'gatsby-transformer-remark',
+    'gatsby-remark-reading-time',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

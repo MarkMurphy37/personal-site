@@ -1,8 +1,8 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from "gatsby"
-import Layout from '../components/layout'
-import '../scss/templates/blog-post.scss'
+import Layout from './layout'
+import '../scss/components/blog-post.scss'
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data
