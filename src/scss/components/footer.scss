@@ -1,29 +1,50 @@
+@import './src/scss/variables';
+
 .footer-wrapper {
     background: #1f364d;
     margin: 2rem 0 0 0;
-    padding: 1rem 0;
+    padding: 1rem;
     width: 100%;
+    box-sizing: border-box;
 
     .footer-content {
-        width: 90%;
-        max-width: 600px;
-        margin: 0 auto;
+        width: 100%;
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
 
-    .twitter-handle {
-        background-color: #1e99e6;
-        border-radius: 3px;
-        color: #fcfcfc;
-        cursor: pointer;
-        font-size: 12px;
-        font-weight: 600;
-        line-height: 20px;
-        padding: 0 6px;
-        white-space: nowrap;
+    .footer-social {
+        flex-grow: 1;
+        text-align: left;
+        @include mobile-only {
+            text-align: center;
+            display: none;
+		}
 
-        &:hover {
-            background-color: #157cbc;
-        }
+        .twitter-handle {
+            background-color: #1e99e6;
+            border-radius: 3px;
+            color: #fcfcfc;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 0 6px;
+            white-space: nowrap;
+            text-decoration: none;
+    
+            &:hover {
+                background-color: #157cbc;
+            }
+        }       
+    }
+
+    .footer-support {
+        flex-grow: 1;
+        text-align: right;
+        @include mobile-only {
+            text-align: center;
+        } 
     }
 }

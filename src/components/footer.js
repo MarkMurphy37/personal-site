@@ -8,6 +8,9 @@ const Footer = () => (
             <div className='footer-social'>
                 Say hi on Twitter <Emoji symbol='👋🏼' /> <a className='twitter-handle' href='https://twitter.com/MarkMurphy37'>@MarkMurphy37</a>
             </div>
+            <div className='footer-support'>
+                Help support <Emoji symbol='👉🏼' /> <a href='https://fullyequipped.co/'>FullyEquipped</a>
+            </div>
         </div>
     </div>
 );

@@ -1,18 +1,27 @@
+@import './src/scss/variables';
+
 .blog-post-wrapper {
-    padding: 2rem;
-    margin: 2rem auto 0 auto;
-    width: 90%;
-    max-width: 600px;
-    background-color: #1f364d;
-    box-sizing: border-box;
-
-    h1 {
-        margin: 0;
-    }
-
-    .blog-post {
-        .blog-post-content {
-
+	.blog-post {
+		padding: 2rem;
+		margin: 2rem auto 0 auto;
+		width: 90%;
+		max-width: 600px;
+		background-color: #1f364d;
+		box-sizing: border-box;
+		@include mobile-only {
+			padding: 1rem;
+			margin: 1rem auto 0 auto;
         }
-    }
+        
+		h1 {
+			margin: 0;
+			@include mobile-only {
+				font-size: 22px;
+			}
+        }
+        
+		.blog-post-content {
+            
+		}
+	}
 }

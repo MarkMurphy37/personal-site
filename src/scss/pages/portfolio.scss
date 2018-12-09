@@ -1,28 +1,16 @@
 @import "./src/scss/variables";
 
 .portfolio-wrapper {
-  .portfolio-item {
-    padding: 1.5rem 1.5rem 0 1.5rem;
-    width: 100%;
+  .portfolio-content {
+    padding: 2rem;
+		margin: 2rem auto 0 auto;
+		width: 90%;
+		max-width: 600px;
+		background-color: #1f364d;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr;
-    @include desktop-only {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .portfolio-image {
-      img {
-        width: 100%;
-      }
-    }
-
-    .portfolio-story {
-      background-color: #1f364d;
-      opacity: 0.9;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    @include mobile-only {
+		  margin: 1rem auto 0 auto;
+      padding: 1rem;
     }
   }
 }
