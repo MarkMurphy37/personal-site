@@ -14,7 +14,7 @@ const links = [
   { id: 1, text: 'About', url: '/about', icon: <FaUserCircle /> },
   { id: 2, text: 'Blog', url: '/blog', icon: <FaCommentDots /> },
   { id: 3, text: 'Contact', url: '/contact', icon: <FaEnvelope /> },
-  { id: 4, text: 'Portfolio', url: '/portfolio', icon: <FaFolder /> },
+  { id: 4, text: 'Work', url: '/work', icon: <FaFolder /> },
 ]
 
 const Header = props => {

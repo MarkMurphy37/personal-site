@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from '../components/button'
 import Layout from '../components/layout'
+import Emoji from '../components/emoji';
 import '../scss/pages/contact.scss'
 
 const Contact = () => (
   <Layout url={'/contact'}>
     <div className="contact-form">
-      <h1>Contact Me</h1>
+      <h1>Contact Me <Emoji symbol="👋🏼" /></h1>
       <p>
         If you have any business inquiries or want to say hi, just fill out the form below or email me at <strong>Mark@MarkMurphy.io</strong> and let's chat.
       </p>

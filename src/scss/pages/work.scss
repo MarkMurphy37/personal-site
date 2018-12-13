@@ -1,0 +1,47 @@
+@import "./src/scss/variables";
+
+.work-wrapper {
+  .work-content {
+    padding: 2rem;
+		margin: 2rem auto 0 auto;
+		width: 90%;
+		max-width: 700px;
+		background-color: #1f364d;
+    box-sizing: border-box;
+    @include mobile-only {
+		  margin: 1rem auto 0 auto;
+      padding: 1rem;
+    }
+
+    h1 {
+			margin: 0;
+      text-align: center;
+      @include mobile-only {
+        font-size: 1.75rem;
+      }
+    }
+    
+    .work-background {
+      margin: 4rem 0;
+      @include mobile-only {
+        margin: 2.5rem 0;
+      }
+    }
+
+    .work-logos {
+      background: transparent url('../../images/logos/logos-bar.png') repeat-x 50% 0;
+      animation: infinite-shift-left 5000s linear;
+      height: 150px;
+      margin-top: 1.5rem;
+    }
+    
+    @keyframes infinite-shift-left {
+      0% {
+        background-position: 50000px;
+      }
+      100% {
+        background-position: 0;
+      }
+    }
+  }
+}

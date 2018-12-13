@@ -1,33 +1,51 @@
+@import "./src/scss/variables";
+
 html {
-  height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	height: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 body {
-  height: 100%;
-  margin: 0;
-  background-color: #0e2439;
-  color: #fcfcfc;
+	height: 100%;
+	margin: 0;
+	background-color: #0e2439;
+	color: #fcfcfc;
 }
 
 a {
-  color: #fcfcfc;
-  font-weight: bold;
-  cursor: pointer;
+	color: #fcfcfc;
+	font-weight: bold;
+	cursor: pointer;
 
-  &:active,
-  &:hover {
-    color: #9cb3c9;
+	&:active,
+	&:hover {
+		color: #9cb3c9;
+	}
+
+	&.default-button {
+		text-decoration: none;
+		margin: 1rem;
+		padding: 0.5rem 1.25rem;
+
+		&:hover {
+			color: #fcfcfc;
+		}
+	}
+}
+
+.blockquote {
+  background-color: #0e2439;
+	border-left: 0.3rem solid #9cb3c9;
+	margin: 2rem 1.5rem;
+  padding: 0.5em 1.5rem;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  @include mobile-only {
+    margin: 2rem 0;
   }
 
-  &.default-button {
-    text-decoration: none;
-    margin: 1rem;
-    padding: 0.5rem 1.25rem;
-
-    &:hover {
-      color: #fcfcfc;
-    }
+  .blockquote-author {
+    text-align: right;
+    margin: 0;
   }
 }

@@ -32,7 +32,7 @@ const Layout = ({ children, url }) => (
 						{
 							name: 'keywords',
 							content:
-								'Mark Murphy, Software Developer, Web Developer, Full-Stack Developer, Mobile Developer, Portfolio',
+								'Mark Murphy, Software Developer, Web Developer, Full-Stack Developer, Mobile Developer, Work',
 						},
 					]}
 				>

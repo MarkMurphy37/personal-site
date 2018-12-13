@@ -9,15 +9,21 @@ const About = () => (
 		<div className="about-wrapper">
 			<div className="about-content">
 				<h1>
-					<Emoji symbol="👨🏻‍💻" />
-					Mark Murphy
+					<Emoji symbol="👨🏻‍💻" /> Mark Murphy
 				</h1>
-				<h2>I'm a software developer based in Northeast Ohio.</h2>
+				<h2>
+					I'm a{' '}
+					<Link to="https://www.linkedin.com/in/markrmurphy/">
+						software developer
+					</Link>{' '}
+					based in Northeast Ohio.
+				</h2>
 				<p>
-					I enjoy solving complex business problems with simple and intuitive
-					technological solutions. When I'm not working, coding, or tweeting,
-					you'll find me in the local national park,reading a good book, or
-					playing sports.
+					I love to help businesses solve problems by leveraging technology.
+					When I'm not working, coding, or{' '}
+					<Link to="https://twitter.com/MarkMurphy37">tweeting</Link>, you can
+					find me playing sports, reading a book, or trying to level the playing
+					field at <Link to="https://fullyequipped.co/">FullyEquipped</Link>.
 				</p>
 				<div className="about-image-gallery">
 					<img
