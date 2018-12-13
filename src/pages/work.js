@@ -20,35 +20,35 @@ const Work = () => (
 				<div className="work-background">
 					<p>
 						As a well-rounded software developer with{' '}
-						<Link to="https://www.linkedin.com/in/markrmurphy/">
+						<a href="https://www.linkedin.com/in/markrmurphy/">
 							3+ years of experience
-						</Link>
+						</a>
 						, I've learned how to utilize my work ethic and persistence to solve
 						challenging problems and create valuable software solutions for
 						businesses.
 					</p>
 					<p>
 						From{' '}
-						<Link to="https://www.microsoft.com/en-us/sql-server/sql-server-2017">
+						<a href="https://www.microsoft.com/en-us/sql-server/sql-server-2017">
 							SQL Server
-						</Link>{' '}
+						</a>{' '}
 						to{' '}
-						<Link to="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</Link>{' '}
-						to <Link to="https://reactjs.org/">ReactJS</Link>, I've built
+						<a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>{' '}
+						to <a href="https://reactjs.org/">ReactJS</a>, I've built
 						full-stack software solutions in a myriad of technologies. Whether
 						I'm building a mobile app in{' '}
-						<Link to="https://facebook.github.io/react-native/">
+						<a href="https://facebook.github.io/react-native/">
 							React Native
-						</Link>{' '}
-						or a web app in <Link to="https://reactjs.org/">ReactJS</Link>, I
+						</a>{' '}
+						or a web app in <a href="https://reactjs.org/">ReactJS</a>, I
 						take each project as an opportunity to learn, do my best work, and
 						get the job done.
 					</p>
 					<p>
 						From playing Big-Ten{' '}
-						<Link to="https://www.youtube.com/watch?v=Y-VT93BWqbU">
+						<a href="https://www.youtube.com/watch?v=Y-VT93BWqbU">
 							football
-						</Link>{' '}
+						</a>{' '}
 						in college to software problems today, I've made a career of
 						tackling things. <Link to="/contact">Let's chat</Link> and see what
 						problems we can tackle together.

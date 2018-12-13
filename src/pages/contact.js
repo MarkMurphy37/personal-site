@@ -51,7 +51,7 @@ const Contact = () => (
             className="form-input"
             name="message"
             id="message"
-            rows="7"
+            rows="8"
             placeholder="I need help making a website for a charity 5K fun run. It's gonna be called the Dunder Mifflin Scranton Meredith Palmer Memorial Celebrity Rabies Awareness Pro-Am Fun Run Race for the Cure. I've already got some ideas. I hope to talk with you soon!"
           />
         </div>

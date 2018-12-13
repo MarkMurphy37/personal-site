@@ -1,8 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
-import { Link } from 'gatsby';
-import '../scss/pages/about.scss';
 import Emoji from '../components/emoji';
+import '../scss/pages/about.scss';
 
 const About = () => (
 	<Layout url={'/about'}>
@@ -13,17 +12,17 @@ const About = () => (
 				</h1>
 				<h2>
 					I'm a{' '}
-					<Link to="https://www.linkedin.com/in/markrmurphy/">
+					<a href="https://www.linkedin.com/in/markrmurphy/">
 						software developer
-					</Link>{' '}
+					</a>{' '}
 					based in Northeast Ohio.
 				</h2>
 				<p>
 					I love to help businesses solve problems by leveraging technology.
 					When I'm not working, coding, or{' '}
-					<Link to="https://twitter.com/MarkMurphy37">tweeting</Link>, you can
+					<a href="https://twitter.com/MarkMurphy37">tweeting</a>, you can
 					find me playing sports, reading a book, or trying to level the playing
-					field at <Link to="https://fullyequipped.co/">FullyEquipped</Link>.
+					field at <a href="https://fullyequipped.co/">FullyEquipped</a>.
 				</p>
 				<div className="about-image-gallery">
 					<img
