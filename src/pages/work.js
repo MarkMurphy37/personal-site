@@ -32,29 +32,27 @@ const Work = () => (
 						<a href="https://www.microsoft.com/en-us/sql-server/sql-server-2017">
 							SQL Server
 						</a>{' '}
-						to{' '}
-						<a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>{' '}
-						to <a href="https://reactjs.org/">ReactJS</a>, I've built
-						full-stack software solutions in a myriad of technologies. Whether
-						I'm building a mobile app in{' '}
-						<a href="https://facebook.github.io/react-native/">
-							React Native
-						</a>{' '}
-						or a web app in <a href="https://reactjs.org/">ReactJS</a>, I
-						take each project as an opportunity to learn, do my best work, and
-						get the job done.
+						to <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>{' '}
+						to <a href="https://reactjs.org/">ReactJS</a>, I've built full-stack
+						software solutions in a myriad of technologies. Whether I'm building
+						a mobile app in{' '}
+						<a href="https://facebook.github.io/react-native/">React Native</a>{' '}
+						or a web app in <a href="https://reactjs.org/">ReactJS</a>, I take
+						each project as an opportunity to learn, do my best work, and get
+						the job done.
 					</p>
 					<p>
-						From playing Big-Ten{' '}
-						<a href="https://www.youtube.com/watch?v=Y-VT93BWqbU">
-							football
-						</a>{' '}
-						in college to software problems today, I've made a career of
-						tackling things. <Link to="/contact">Let's chat</Link> and see what
-						problems we can tackle together.
+						From{' '}
+						<a href="https://www.youtube.com/watch?v=Y-VT93BWqbU">playing</a>{' '}
+						Big-Ten football in college to developing software today, I've made
+						a career of tackling things. If you'd like to learn more about my
+						background, projects I've done, or you have a business inquiry,{' '}
+						<Link to="/contact">send me message</Link> and let's chat!
 					</p>
 				</div>
-				<h1>I've worked with <Emoji symbol="👇🏼" /></h1>
+				<h2>
+					I've worked with <Emoji symbol="👇🏼" />
+				</h2>
 				<div className="work-logos" />
 			</div>
 		</div>

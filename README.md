@@ -1,4 +1,12 @@
-# gatsby-starter-default
+#MarkMurphy.io
+
+Hi there! 👋🏼
+
+This is my [personal site](https://markmurphy.io) built with GatsbyJS, ReactJS, GraphQL. I used the default Gatsby starter as a base. 
+
+If you'd like to try out the GatsbyJS for yourself just follow the steps below. 👇🏼
+
+## gatsby-starter-default
 The default Gatsby starter.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
