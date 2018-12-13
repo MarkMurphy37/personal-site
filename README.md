@@ -1,10 +1,10 @@
-#MarkMurphy.io
+# MarkMurphy.io
 
 Hi there! 👋🏼
 
-This is my [personal site](https://markmurphy.io) built with GatsbyJS, ReactJS, GraphQL. I used the default Gatsby starter as a base. 
+This is my [personal site](https://markmurphy.io) built with GatsbyJS, ReactJS, GraphQL. I used the default GatsbyJS starter as a base. 
 
-If you'd like to try out the GatsbyJS for yourself just follow the steps below. 👇🏼
+If you'd like to try out the default GatsbyJS starter for yourself just follow the steps below. 👇🏼
 
 ## gatsby-starter-default
 The default Gatsby starter.
