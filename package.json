@@ -4,20 +4,20 @@
   "version": "1.0.0",
   "author": "Mark Murphy <MarkRMurphy37@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.55",
+    "gatsby": "^2.0.76",
     "gatsby-plugin-catch-links": "^2.0.9",
-    "gatsby-plugin-google-analytics": "^2.0.7",
-    "gatsby-plugin-guess-js": "^1.0.2",
-    "gatsby-plugin-manifest": "^2.0.10",
-    "gatsby-plugin-offline": "^2.0.17",
-    "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sass": "^2.0.4",
-    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-google-analytics": "^2.0.8",
+    "gatsby-plugin-guess-js": "^1.0.3",
+    "gatsby-plugin-manifest": "^2.0.12",
+    "gatsby-plugin-offline": "^2.0.20",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-sharp": "^2.0.16",
     "gatsby-remark-images": "^3.0.1",
     "gatsby-remark-reading-time": "^1.0.1",
-    "gatsby-source-filesystem": "^2.0.10",
-    "gatsby-transformer-remark": "^2.1.15",
-    "node-sass": "^4.10.0",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-remark": "^2.1.17",
+    "node-sass": "^4.11.0",
     "react": "next",
     "react-dom": "next",
     "react-helmet": "^5.2.0",
@@ -36,7 +36,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.3"
   },
   "repository": {
     "type": "git",
