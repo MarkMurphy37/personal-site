@@ -8,7 +8,7 @@ const Work = () => (
 	<Layout url={'/work'}>
 		<div className="work-wrapper">
 			<div className="work-content">
-				<h1>Dream Big. Work Hard.</h1>
+				<h1>Work Hard <Emoji symbol="💪🏼" /></h1>
 				<div className="blockquote">
 					“If a man is called to be a street sweeper, he should sweep streets
 					even as a Michelangelo painted, or Beethoven composed music or
@@ -19,9 +19,9 @@ const Work = () => (
 				</div>
 				<div className="work-background">
 					<p>
-						As a well-rounded software developer with{' '}
+						With 3+ years of professional{' '}
 						<a href="https://www.linkedin.com/in/markrmurphy/">
-							3+ years of experience
+							software development experience
 						</a>
 						, I've learned how to utilize my work ethic and persistence to solve
 						challenging problems and create valuable software solutions for
@@ -42,11 +42,8 @@ const Work = () => (
 						the job done.
 					</p>
 					<p>
-						From{' '}
-						<a href="https://www.youtube.com/watch?v=Y-VT93BWqbU">playing</a>{' '}
-						Big-Ten football in college to developing software today, I've made
-						a career of tackling things. If you'd like to learn more about my
-						background, projects I've done, or you have a business inquiry,{' '}
+						If you'd like to learn more about my background, projects I've done,
+						or have a business inquiry,{' '}
 						<Link to="/contact">send me message</Link> and let's chat!
 					</p>
 				</div>

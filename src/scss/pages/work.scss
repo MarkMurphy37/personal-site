@@ -34,9 +34,13 @@
 
     .work-logos {
       background: transparent url('../../images/logos/logos-bar.png') repeat-x 50% 0;
-      animation: infinite-shift-left 5000s linear;
+      animation: infinite-shift-left 2500s linear;
       height: 150px;
       margin-top: 1.5rem;
+      @include mobile-only {
+        height: 150px;
+        animation: infinite-shift-left 1500s linear;
+      }
     }
     
     @keyframes infinite-shift-left {
