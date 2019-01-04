@@ -158,6 +158,7 @@ const Layout = ({ children, url }) => (
 
 Layout.propTypes = {
 	children: PropTypes.node.isRequired,
+	url: PropTypes.string.isRequired
 };
 
 export default Layout;

@@ -2,9 +2,13 @@ import React from 'react';
 import Layout from '../components/layout';
 import Emoji from '../components/emoji';
 import '../scss/pages/about.scss';
+import Helmet from 'react-helmet';
 
 const About = () => (
 	<Layout url={'/about'}>
+		<Helmet>
+			<title>👨🏻‍💻 About - MarkMurphy.io</title>
+		</Helmet>
 		<div className="about-wrapper">
 			<div className="about-content">
 				<h1>
@@ -20,8 +24,8 @@ const About = () => (
 				<p>
 					I love to help businesses solve problems by leveraging technology.
 					When I'm not working, coding, or{' '}
-					<a href="https://twitter.com/MarkMurphy37">tweeting</a>, you can
-					find me playing sports, reading a book, or trying to level the playing
+					<a href="https://twitter.com/MarkMurphy37">tweeting</a>, you can find
+					me playing sports, reading a book, or trying to level the playing
 					field at <a href="https://fullyequipped.co/">FullyEquipped</a>.
 				</p>
 				<div className="about-image-gallery">

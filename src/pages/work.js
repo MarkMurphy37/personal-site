@@ -3,12 +3,18 @@ import Layout from '../components/layout';
 import { Link } from 'gatsby';
 import Emoji from '../components/emoji';
 import '../scss/pages/work.scss';
+import Helmet from 'react-helmet';
 
 const Work = () => (
 	<Layout url={'/work'}>
+		<Helmet>
+			<title>💪🏼 Work - MarkMurphy.io</title>
+		</Helmet>
 		<div className="work-wrapper">
 			<div className="work-content">
-				<h1>Work Hard <Emoji symbol="💪🏼" /></h1>
+				<h1>
+					Work Hard <Emoji symbol="💪🏼" />
+				</h1>
 				<div className="blockquote">
 					“If a man is called to be a street sweeper, he should sweep streets
 					even as a Michelangelo painted, or Beethoven composed music or
@@ -34,12 +40,11 @@ const Work = () => (
 						</a>{' '}
 						to <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>{' '}
 						to <a href="https://reactjs.org/">ReactJS</a>, I've built full-stack
-						software solutions in a myriad of technologies. Whether I'm building
-						a mobile app in{' '}
-						<a href="https://facebook.github.io/react-native/">React Native</a>{' '}
-						or a web app in <a href="https://reactjs.org/">ReactJS</a>, I take
-						each project as an opportunity to learn, do my best work, and get
-						the job done.
+						software solutions in a myriad of technologies. Whether I'm
+						troubleshooting a bug in{' '}
+						<a href="https://www.docker.com/">Docker</a> or building a web app
+						in <a href="https://reactjs.org/">ReactJS</a>, I take each project
+						as an opportunity to learn, do my best work, and get the job done.
 					</p>
 					<p>
 						If you'd like to learn more about my background, projects I've done,
