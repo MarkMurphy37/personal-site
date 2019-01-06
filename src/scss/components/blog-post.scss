@@ -5,12 +5,14 @@
 		padding: 2rem;
 		margin: 2rem auto 0 auto;
 		width: 90%;
-		max-width: 600px;
+		max-width: 800px;
 		background-color: #1f364d;
 		box-sizing: border-box;
+
 		@include mobile-only {
 			padding: 1rem;
-			margin: 1rem auto 0 auto;
+			margin: 0.5rem;
+			width: unset;
         }
         
 		h1 {

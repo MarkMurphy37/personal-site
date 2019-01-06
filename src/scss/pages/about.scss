@@ -7,10 +7,12 @@
 		width: 90%;
 		max-width: 600px;
 		background-color: #1f364d;
-    box-sizing: border-box;
+		box-sizing: border-box;
+		
     @include mobile-only {
-		  margin: 1rem auto 0 auto;
-      padding: 1rem;
+			padding: 1rem;
+			margin: 0.5rem;
+			width: unset;
 		}
 
 		h1 {
@@ -18,7 +20,8 @@
 			text-align: center;
 
 			@include mobile-only {
-        text-align: left;
+				text-align: left;
+				font-size: 1.75rem;
       }
 		}
 

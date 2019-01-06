@@ -22,9 +22,11 @@
             margin-left: 1rem;
             text-decoration: none;
             @include mobile-and-tablet-only {
-                span {
-                    display: none;
-                }
+                svg {
+                    font-size: 1.2rem;
+                } 
+
+                font-size: 0;
             }
 
             &.active {
@@ -43,29 +45,30 @@
     
     .header-title {
         display: flex;
+        justify-content: center;
+        align-items: center;
         color: #9cb3c9;
         text-decoration: none;
+        margin: 0 1rem 0 0;
+        font-size: 1.17em;
+        
+        @include mobile-and-tablet-only {
+            font-size: 0;
+        }
+
+        &:hover {
+            color: #fcfcfc;
+        }
 
         &.active {
             color: #fcfcfc;
         }
     
         .header-avatar {
-            margin: 0;
+            margin: 0 1rem 0 0;
             background: center / contain no-repeat url("../../images/avatar-formal-thumbnail.png");
             height: 35px;
             width: 35px;
-        }
-    
-        h3 {
-            margin: 4px 1rem 0 1rem;
-            @include mobile-and-tablet-only {
-                display: none;
-            }
-
-            &:hover {
-                color: #fcfcfc;
-            }
         }
     }
 }

@@ -10,7 +10,7 @@ export default function Template({ data }) {
 	const coffee = '☕';
 
 	return (
-		<Layout>
+		<Layout url={post.frontmatter.path}>
 			<Helmet title={`${post.frontmatter.title} - Mark Murphy`} />
 			<div className="blog-post-wrapper">
 				<div className="blog-post">

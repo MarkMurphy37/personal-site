@@ -6,6 +6,9 @@
     padding: 1rem;
     width: 100%;
     box-sizing: border-box;
+    @include mobile-only {
+        margin: 0;
+    }
 
     .footer-content {
         width: 100%;

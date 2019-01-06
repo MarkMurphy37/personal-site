@@ -1,8 +1,13 @@
+@import './src/scss/variables';
+
 .contact-form {
   padding: 1rem 0;
   margin: 0 auto;
   width: 90%;
   max-width: 600px;
+  @include mobile-only {
+    padding: 0;
+  }
 
   h1 {
     text-align: center;

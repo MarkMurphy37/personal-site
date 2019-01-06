@@ -9,8 +9,9 @@
 		background-color: #1f364d;
     box-sizing: border-box;
     @include mobile-only {
-		  margin: 1rem auto 0 auto;
       padding: 1rem;
+      margin: 0.5rem;
+      width: unset;
     }
 
     h1 {
@@ -28,7 +29,7 @@
     .work-background {
       margin: 4rem 0;
       @include mobile-only {
-        margin: 2.5rem 0;
+        margin: 2rem 0;
       }
     }
 
