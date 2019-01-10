@@ -38,14 +38,14 @@ Not too shabby. (Although my competitive side wants to get everything to 100 so 
 
 Why is Gatsby so fast? Gatsby makes performance optimizations automatically out-of-the-box. Some of these optimizations include: prefetching soon-to-be-needed resources, inlining critical CSS, per route code/data splitting, and more. The bottom line is that Gatsby makes it really really hard to build a slow site, which great for your users, SEO and your sanity.
 
-Speaking of things great for your sanity, Gatsby makes it easy to load data from anywhere, whether that data is from a headless CMS like WordPress, a REST API, or even markdown files. Since I utilize the productivity tool [Notion](https://www.notion.so/) for nearly everything including writing, I chose to drive my blog using markdown files.
+Speaking of things great for your sanity, Gatsby makes it easy to load data from anywhere, whether that data is from a headless CMS like WordPress, a REST API, or even markdown files. Since I utilize the productivity tool [Notion](https://www.notion.so/) for host of things including writing, I chose to drive my blog using markdown files.
 
-Notion allows me to export whatever I write as a markdown file, which I can then easily add to my site. Once added, a blog post page will get generated automatically based on my Gatsby site configuration. 👌🏼 Another automated process I leverage for my Gatsby site is Netlify deploy.
+Notion allows me to export whatever I write as a markdown file, which I can then easily add as a .md file to my site. Once added, a blog post page and route will get generated automatically based on my Gatsby site configuration. 👌🏼 Another automated process I leverage for my Gatsby site is Netlify deploy.
 
 ![Netlify Automated Deploy](./netlify-deploy.png)
 
-Since Gatsby is a static site generator, hosting your static site is super affordable and if you use [Netlify](https://www.netlify.com/), it can be free. 🤑 Connecting a repository (in my case [GitHub](https://github.com/MarkMurphy37/personal-site)) to Netlify is straightforward. 
+Since Gatsby is a static site generator, hosting the site is super affordable and if you use [Netlify](https://www.netlify.com/), it can be free. 🤑 Connecting a repository (in my case [GitHub](https://github.com/MarkMurphy37/personal-site)) to Netlify is pretty straightforward. 
 
-Once connected, you can have Netlify watch a branch for changes as well as execute builds commands when changes are detected. I've configured Netlify to watch the 'master' branch of my Git repo. Any time I push new changes to the master branch, Netlify executes my Gatsby build commands and deploys the new version my site automatically. 🙌🏼 Not bad for a site hosted for free.
+Once connected, you can have Netlify watch a branch of your repo for changes as well as execute builds commands when changes are detected. I've configured Netlify to watch the master branch of my GitHub repo. Any time new changes are pushed to the master branch, Netlify executes predefined build commands and deploys a new version the site automatically. 🙌🏼 Not bad for a site hosted for free.
 
 All in all, I'm a big fan of Gatsby so far. The ease of use, performance, and affordable hosting make for a great development experience. Consider trying out Gatsby for your next project and let me know what you think!
