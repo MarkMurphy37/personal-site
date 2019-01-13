@@ -25,26 +25,23 @@ const Work = () => (
 				</div>
 				<div className="work-background">
 					<p>
-						With 3+ years of professional{' '}
+						I'm a full-stack software developer with 3+ years of professional{' '}
 						<a href="https://www.linkedin.com/in/markrmurphy/">
 							software development experience
 						</a>
-						, I've learned how to utilize my work ethic and persistence to solve
-						challenging problems and create valuable software solutions for
-						businesses.
+						. Over the years I've utilized an array of technologies to solve
+						challenging business problems for a diverse portfolio of clients.
 					</p>
 					<p>
-						From{' '}
+						Whether I'm troubleshooting a bug in{' '}
+						<a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>,
+						writing queries in{' '}
 						<a href="https://www.microsoft.com/en-us/sql-server/sql-server-2017">
 							SQL Server
-						</a>{' '}
-						to <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>{' '}
-						to <a href="https://reactjs.org/">ReactJS</a>, I've built full-stack
-						software solutions in a myriad of technologies. Whether I'm
-						troubleshooting a bug in{' '}
-						<a href="https://www.docker.com/">Docker</a> or building a web app
-						in <a href="https://reactjs.org/">ReactJS</a>, I take each project
-						as an opportunity to learn, do my best work, and get the job done.
+						</a>
+						, or building a web app in{' '}
+						<a href="https://reactjs.org/">ReactJS</a>, I take each project as
+						an opportunity to learn, do my best work, and get the job done.
 					</p>
 					<p>
 						If you'd like to learn more about my background, projects I've done,
