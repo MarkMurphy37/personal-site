@@ -4,25 +4,25 @@
   "version": "1.0.2",
   "author": "Mark Murphy <Mark@MarkMurphy.io>",
   "dependencies": {
-    "gatsby": "^2.0.90",
-    "gatsby-plugin-catch-links": "^2.0.9",
-    "gatsby-plugin-google-analytics": "^2.0.9",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.21",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-plugin-sharp": "^2.0.17",
-    "gatsby-remark-images": "^3.0.1",
+    "gatsby": "^2.3.33",
+    "gatsby-plugin-catch-links": "^2.0.13",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-remark-images": "^3.0.11",
     "gatsby-remark-reading-time": "^1.0.1",
-    "gatsby-source-filesystem": "^2.0.13",
-    "gatsby-transformer-remark": "^2.2.0",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.0-alpha.0",
-    "react-dom": "^16.8.0-alpha.0",
+    "gatsby-source-filesystem": "^2.0.32",
+    "gatsby-transformer-remark": "^2.3.12",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "react-icons": "^3.2.2",
-    "react-particles-js": "^2.4.2",
-    "typed.js": "^2.0.9"
+    "react-icons": "^3.6.1",
+    "react-particles-js": "^2.6.0",
+    "typed.js": "^2.0.10"
   },
   "keywords": [
     "gatsby"
@@ -35,7 +35,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.17.0"
   },
   "repository": {
     "type": "git",
