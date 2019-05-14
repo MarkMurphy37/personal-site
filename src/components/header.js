@@ -28,7 +28,6 @@ const Header = props => {
           }
         >
           <div className="header-avatar" />
-          {props.siteTitle}
         </Link>
         <div className="header-links">
           {links.map(link => (
@@ -40,10 +39,10 @@ const Header = props => {
               {link.icon} {link.text}
             </Link>
           ))}
-          <a href="https://www.linkedin.com/in/markrmurphy/">
+          <a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
             <FaLinkedin /> LinkedIn
           </a>
-          <a href="https://github.com/MarkMurphy37">
+          <a target="_blank" href="https://github.com/MarkMurphy37">
             <FaGithub /> GitHub
           </a>
         </div>

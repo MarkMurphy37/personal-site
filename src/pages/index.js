@@ -9,7 +9,7 @@ import Helmet from 'react-helmet';
 const IndexPage = () => (
 	<Layout url={'/'}>
 		<Helmet>
-			<title>🏠 Home - MarkMurphy.io</title>
+			<title>Home 🏠 - MarkMurphy.io</title>
 		</Helmet>
 		<div className="index-wrapper">
 			<div className="index-header">

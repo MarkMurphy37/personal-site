@@ -7,12 +7,12 @@ import Helmet from 'react-helmet';
 const About = () => (
 	<Layout url={'/about'}>
 		<Helmet>
-			<title>👨🏻‍💻 About - MarkMurphy.io</title>
+			<title>About 👨🏻‍💻 - MarkMurphy.io</title>
 		</Helmet>
 		<div className="about-wrapper">
 			<div className="about-content">
 				<h1>
-					<Emoji symbol="👨🏻‍💻" /> Mark Murphy
+					Mark Murphy <Emoji symbol="👨🏻‍💻" />
 				</h1>
 				<h2>
 					I'm a{' '}

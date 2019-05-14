@@ -8,7 +8,7 @@ import Helmet from 'react-helmet';
 const Work = () => (
 	<Layout url={'/work'}>
 		<Helmet>
-			<title>💪🏼 Work - MarkMurphy.io</title>
+			<title>Work 💪🏼 - MarkMurphy.io</title>
 		</Helmet>
 		<div className="work-wrapper">
 			<div className="work-content">

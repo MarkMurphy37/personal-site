@@ -11,7 +11,7 @@ export default function Blog({ data }) {
 	return (
 		<Layout url={'/blog'}>
 			<Helmet>
-				<title>✍🏼 Blog - MarkMurphy.io</title>
+				<title>Blog ✍🏼 - MarkMurphy.io</title>
 			</Helmet>
 			<div className="blog-wrapper">
 				<h1>

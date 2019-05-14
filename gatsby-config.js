@@ -17,7 +17,7 @@ module.exports = {
 				background_color: '#0e2439',
 				theme_color: '#1f364d',
 				display: 'minimal-ui',
-				icon: 'src/images/avatar-formal-thumbnail.png',
+				icon: 'src/images/m-logo-small.png',
 			},
 		},
 

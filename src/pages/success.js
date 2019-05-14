@@ -7,7 +7,7 @@ import '../scss/pages/success.scss';
 const Success = props => (
 	<Layout url="/success">
 		<Helmet>
-			<title>🙌🏼 Success - MarkMurphy.io</title>
+			<title>Success 🙌🏼 - MarkMurphy.io</title>
 		</Helmet>
 		<div className="success-wrapper">
 			<h1>

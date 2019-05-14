@@ -8,7 +8,7 @@ import Helmet from 'react-helmet';
 const Contact = () => (
 	<Layout url={'/contact'}>
 		<Helmet>
-			<title>👋🏼 Contact - MarkMurphy.io</title>
+			<title>Contact Me 👋🏼 - MarkMurphy.io</title>
 		</Helmet>
 		<div className="contact-form">
 			<h1>

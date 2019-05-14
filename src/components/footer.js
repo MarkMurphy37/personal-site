@@ -6,10 +6,10 @@ const Footer = () => (
     <div className='footer-wrapper'>
         <div className='footer-content'>
             <div className='footer-social'>
-                Say hi on Twitter <Emoji symbol='👋🏼' /> <a className='twitter-handle' href='https://twitter.com/MarkMurphy37'>@MarkMurphy37</a>
+                Say hi on Twitter <Emoji symbol='👋🏼' /> <a className='twitter-handle' target="_blank" href='https://twitter.com/MarkMurphy37'>@MarkMurphy37</a>
             </div>
             <div className='footer-support'>
-                Help support <Emoji symbol='👉🏼' /> <a href='https://fullyequipped.co/'>FullyEquipped</a>
+                Help support <Emoji symbol='👉🏼' /> <a target="_blank" href='https://fullyequipped.co/'>FullyEquipped</a>
             </div>
         </div>
     </div>
