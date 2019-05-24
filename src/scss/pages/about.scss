@@ -20,7 +20,6 @@
 			text-align: center;
 
 			@include mobile-only {
-				text-align: left;
 				font-size: 1.75rem;
       }
 		}
