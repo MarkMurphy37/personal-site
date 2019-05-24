@@ -15,9 +15,8 @@ const Contact = () => (
 				Contact Me <Emoji symbol="👋🏼" />
 			</h1>
 			<p>
-				If you have any business inquiries or just want to say hi, fill out the
-				form below or email me at <strong>Mark@MarkMurphy.io</strong> and let's
-				chat.
+				If you have a business inquiry or just want to say hi, fill out the form
+				below or email me at <a href="mailto:Mark@MarkMurphy.io">Mark@MarkMurphy.io</a> and let's chat!
 			</p>
 			<form
 				name="contact"

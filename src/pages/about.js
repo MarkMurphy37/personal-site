@@ -7,12 +7,12 @@ import Helmet from 'react-helmet';
 const About = () => (
 	<Layout url={'/about'}>
 		<Helmet>
-			<title>About 👨🏻‍💻 - MarkMurphy.io</title>
+			<title>About Me 👨🏻‍💻 - MarkMurphy.io</title>
 		</Helmet>
 		<div className="about-wrapper">
 			<div className="about-content">
 				<h1>
-					Mark Murphy <Emoji symbol="👨🏻‍💻" />
+					About Me <Emoji symbol="👨🏻‍💻" />
 				</h1>
 				<h2>
 					I'm a{' '}
@@ -22,29 +22,51 @@ const About = () => (
 					based in Northeast Ohio.
 				</h2>
 				<p>
-					I love to help businesses solve problems by leveraging technology.
-					When I'm not working, coding, or{' '}
-					<a href="https://twitter.com/MarkMurphy37">tweeting</a>, you can find
-					me playing sports, reading a book, or trying to level the playing
-					field at <a href="https://fullyequipped.co/">FullyEquipped</a>.
+					I used to tackle people on the{' '}
+					<a href="https://www.youtube.com/watch?v=Y-VT93BWqbU" target="_blank">
+						football field
+					</a>
+					. <Emoji symbol="🏈" /> Nowadays, I tackle software projects instead.{' '}
+					<Emoji symbol="💻" /> I love being able to take an idea and make
+					something from scratch.
+				</p>{' '}
+				<p>
+					When I'm not coding or{' '}
+					<a href="https://twitter.com/MarkMurphy37" target="_blank">
+						tweeting
+					</a>
+					, you can find me on a sports field, reading a good book,{' '}
+					<Emoji symbol="📚" /> or trying to level the playing field at{' '}
+					<a href="https://fullyequipped.co/" target="_blank">
+						FullyEquipped
+					</a>
+					. <Emoji symbol="🎒" />
 				</p>
 				<div className="about-image-gallery">
 					<img
-						src={require('../images/christmas-party.jpg')}
-						alt="Christmas Party"
+						src={require('../images/mark-nat-shanes-wedding.jpg')}
+						alt="Taking wedding pictures by Lake Erie."
 					/>
-					<img src={require('../images/football.jpg')} alt="Indiana Football" />
+					<img
+						src={require('../images/football.jpg')}
+						alt="Playing football for the Indiana Hoosiers."
+					/>
 					<img
 						src={require('../images/golden-gate.jpg')}
-						alt="Golden Gate Bridge"
+						alt="Standing on a boat in front of the Golden Gate Bridge."
 					/>
-
-					<img src={require('../images/golf.jpg')} alt="Minerva Golf Outing" />
+					<img
+						src={require('../images/golf.jpg')}
+						alt="Standing by the FullyEquipped sponsorship sign at the Minerva Golf Outing"
+					/>
 					<img
 						src={require('../images/google.jpg')}
-						alt="Google Headquarters"
+						alt="Standing in front of the Google logo at the Google Headquarters"
 					/>
-					<img src={require('../images/5k.jpg')} alt="The Hammy 5K" />
+					<img
+						src={require('../images/5k.jpg')}
+						alt="Getting ready to run the Hammy 5K"
+					/>
 				</div>
 			</div>
 		</div>

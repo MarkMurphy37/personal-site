@@ -2,38 +2,45 @@
 
 .index-wrapper {
 	height: 100%;
+	max-width: 800px;
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-
+	padding: 0 2rem;	
+	@include mobile-only {
+		width: 80%;
+		flex-direction: column;
+		padding: 0;	
+	}
 	.index-header {
-		min-height: 150px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+		margin-right: 3rem;
+		@include mobile-only {
+			margin: 2rem 0;
+		}
+		.avatar {
+			border-radius: 50%;
+			border: 8px solid #9cb3c9;
+			@include mobile-only {
+				height: 150px;
+				width: 150px;
+			}
+		}
 
 		h1 {
 			margin: 0 0 0.5rem 0;
 		}
-		h2 {
-            margin: 0 0 2rem 0;
-            
-            @include mobile-only {
-                margin: 0 0 1rem 0; 
-            }
-		}
 	}
 
-	.index-links {
+	.index-intro {
+		font-size: 1.35rem;
 		@include mobile-only {
-			display: flex;
-			flex-direction: column;
-
-			a {
-				margin: 0.4rem;
-			}
+			font-size: 1.2rem;
+			margin: 0 0 2rem 0;
 		}
 	}
 }

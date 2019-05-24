@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 import '../scss/pages/index.scss';
 import '../scss/components/button.scss';
 import Helmet from 'react-helmet';
+import Emoji from '../components/emoji';
 
 const IndexPage = () => (
 	<Layout url={'/'}>
@@ -13,34 +14,30 @@ const IndexPage = () => (
 		</Helmet>
 		<div className="index-wrapper">
 			<div className="index-header">
-				<h1>
-					<TypeWriter
-						elementId={'typewriter-line-1'}
-						startDelay={1000}
-						strings={['Mark Murphy']}
-					/>
-				</h1>
-				<h2>
-					<TypeWriter
-						elementId={'typewriter-line-2'}
-						startDelay={2000}
-						strings={['⚡ Software Developer ⚡']}
-					/>
-				</h2>
+				<img
+					className="avatar"
+					src={require('../images/avatar-casual.png')}
+					alt="Mark Murphy Avatar"
+					height="200"
+					width="200"
+				/>
 			</div>
-			<div className="index-links">
-				<Link to="/about" className="default-button">
-					About
-				</Link>
-				<Link to="/blog" className="default-button">
-					Blog
-				</Link>
-				<Link to="/contact" className="default-button">
-					Contact
-				</Link>
-				<Link to="/work" className="default-button">
-					Work
-				</Link>
+			<div className="index-intro">
+				Hi there! <Emoji symbol="👋🏼" /> My name is{' '}
+				<a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
+					Murph
+				</a>
+				. I use code to make things. <Emoji symbol="💻" /> I'm currently working
+				on <strong>Dark Hacker News</strong>. When I'm not coding, you can find
+				me trying to level the playing field at{' '}
+				<a target="_blank" href="https://fullyequipped.co/">
+					FullyEquipped
+				</a>
+				. <Emoji symbol="🎒" /> Want to chat? Say hi on{' '}
+				<a target="_blank" href="https://twitter.com/MarkMurphy37">
+					Twitter
+				</a>{' '}
+				<Emoji symbol="🐤" /> or send me a <Link to="/contact">message</Link>!
 			</div>
 		</div>
 	</Layout>
