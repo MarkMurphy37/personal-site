@@ -27,7 +27,7 @@ const IndexPage = () => (
 				<a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
 					Murph
 				</a>
-				. I use code to make things. <Emoji symbol="💻" /> I'm currently working
+				. I make things with code. <Emoji symbol="💻" /> I'm currently working
 				on <strong>Dark Hacker News</strong>. When I'm not coding, you can find
 				me trying to level the playing field at{' '}
 				<a target="_blank" href="https://fullyequipped.co/">
