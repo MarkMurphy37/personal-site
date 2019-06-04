@@ -3,15 +3,18 @@ import Layout from '../../components/layout';
 import { Link } from 'gatsby';
 import '../../scss/pages/dark-hacker-news/privacy-policy.scss';
 import Helmet from 'react-helmet';
+import Emoji from '../../components/emoji';
 
 const PrivacyPolicyPage = () => (
 	<Layout url={'/prvacy-policy'}>
 		<Helmet>
-			<title>🕵🏼‍ Privacy Policy - Dark Hacker News</title>
+			<title>Privacy Policy 🕵🏼‍ - Dark Hacker News</title>
 		</Helmet>
 		<div className="privacy-policy-wrapper">
 			<div className="privacy-policy">
-				<h1>Privacy Policy - Dark Hacker News</h1>
+				<h1>
+					Privacy Policy <Emoji symbol="🕵🏼‍" /> - Dark Hacker News
+				</h1>
 				<p>
 					This policy applies to all information collected or submitted on the
 					Dark Hacker News iOS app.
