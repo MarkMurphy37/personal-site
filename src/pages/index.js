@@ -27,9 +27,16 @@ const IndexPage = () => (
 				<a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
 					Murph
 				</a>
-				. I make things with code. <Emoji symbol="💻" /> I'm currently working
-				on <strong>Dark Hacker News</strong>. When I'm not coding, you can find
-				me trying to level the playing field at{' '}
+				. I make things with code. <Emoji symbol="💻" /> I just released my
+				first iOS app{' '}
+				<a
+					target="_blank"
+					href="https://itunes.apple.com/us/app/dark-hacker-news/id1459946382?mt=8"
+				>
+					Dark Hacker News
+				</a>
+				! When I'm not coding, you can find me trying to level the playing field
+				at{' '}
 				<a target="_blank" href="https://fullyequipped.co/">
 					FullyEquipped
 				</a>

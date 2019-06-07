@@ -7,11 +7,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0 2rem;	
+	padding: 0 2rem;
 	@include mobile-only {
 		width: 80%;
 		flex-direction: column;
-		padding: 0;	
+		padding: 0;
 	}
 	.index-header {
 		display: flex;
@@ -37,7 +37,7 @@
 	}
 
 	.index-intro {
-		font-size: 1.35rem;
+		font-size: 1.3rem;
 		@include mobile-only {
 			font-size: 1.2rem;
 			margin: 0 0 2rem 0;
