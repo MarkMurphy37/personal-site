@@ -24,7 +24,8 @@
 		}
 		.avatar {
 			border-radius: 50%;
-			border: 8px solid #9cb3c9;
+			border: 6px solid #eff3f6;
+
 			@include mobile-only {
 				height: 150px;
 				width: 150px;

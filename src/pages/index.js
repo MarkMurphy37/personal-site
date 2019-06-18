@@ -27,8 +27,8 @@ const IndexPage = () => (
 				<a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
 					Murph
 				</a>
-				. I make things with code. <Emoji symbol="💻" /> I just released my
-				first iOS app{' '}
+				. I'm a full-stack software developer. <Emoji symbol="💻" /> I just
+				released my first iOS app{' '}
 				<a
 					target="_blank"
 					href="https://itunes.apple.com/us/app/dark-hacker-news/id1459946382?mt=8"
