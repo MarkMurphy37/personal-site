@@ -8,10 +8,10 @@
 		max-width: 600px;
 		background-color: #1f364d;
 		box-sizing: border-box;
-		
-    @include mobile-only {
+		@include mobile-only {
+			background-color: #0e2439;
 			padding: 1rem;
-			margin: 0.5rem;
+			margin: 0;
 			width: unset;
 		}
 
@@ -21,15 +21,15 @@
 
 			@include mobile-only {
 				font-size: 1.75rem;
-      }
+			}
 		}
 
 		.about-image-gallery {
 			padding-top: 1rem;
-      box-sizing: border-box;
-      @include mobile-only {
-        padding-top: 0;
-      }
+			box-sizing: border-box;
+			@include mobile-only {
+				padding-top: 0;
+			}
 
 			img {
 				margin: 0.5rem;

@@ -25,13 +25,9 @@ const Work = () => (
 				</div>
 				<div className="work-background">
 					<p>
-						When it comes to building software, I have a great work ethic,
-						incessant attention to detail, and a knack for getting things done.
-					</p>
-					<p>
-						Even after taking my first programming class in 2013 and building my
-						first computer, I had no idea my affinity for technology would turn
-						into a career. As fate would have it, I started working as a{' '}
+						Even after taking my first programming class and building my first
+						computer in 2013, I had no idea my affinity for technology would
+						turn into a career. I started working as a{' '}
 						<a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
 							software developer
 						</a>{' '}
@@ -39,7 +35,7 @@ const Work = () => (
 						<a target="_blank" href="https://www.gm.com/">
 							General Motors
 						</a>{' '}
-						in 2015 and I haven't looked back.
+						in 2015 and the rest is history.
 					</p>
 					<p>
 						Since then, I've grown into a full-stack developer that is

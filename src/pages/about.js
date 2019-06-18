@@ -35,7 +35,7 @@ const About = () => (
 					<a href="https://twitter.com/MarkMurphy37" target="_blank">
 						tweeting
 					</a>
-					, you can find me on a sports field, reading a good book,{' '}
+					, you can find me on a sports field, reading a book,{' '}
 					<Emoji symbol="📚" /> or trying to level the playing field at{' '}
 					<a href="https://fullyequipped.co/" target="_blank">
 						FullyEquipped

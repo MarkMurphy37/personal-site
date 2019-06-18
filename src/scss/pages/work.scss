@@ -1,56 +1,58 @@
-@import "./src/scss/variables";
+@import './src/scss/variables';
 
 .work-wrapper {
-  .work-content {
-    padding: 2rem;
+	.work-content {
+		padding: 2rem;
 		margin: 2rem auto 0 auto;
 		width: 90%;
 		max-width: 700px;
 		background-color: #1f364d;
-    box-sizing: border-box;
-    @include mobile-only {
-      padding: 1rem;
-      margin: 0.5rem;
-      width: unset;
-    }
-
-    h1 {
+		box-sizing: border-box;
+		@include mobile-only {
+			background-color: #0e2439;
+			padding: 1rem;
 			margin: 0;
-      text-align: center;
-      @include mobile-only {
-        font-size: 1.75rem;
-      }
-    }
+			width: unset;
+		}
 
-    h2 {
-      text-align: center;
-    }
-    
-    .work-background {
-      margin: 4rem 0;
-      @include mobile-only {
-        margin: 2rem 0;
-      }
-    }
+		h1 {
+			margin: 0;
+			text-align: center;
+			@include mobile-only {
+				font-size: 1.75rem;
+			}
+		}
 
-    .work-logos {
-      background: transparent url('../../images/logos/logos-bar.png') repeat-x 50% 0;
-      animation: infinite-shift-left 2500s linear;
-      height: 150px;
-      margin-top: 1.5rem;
-      @include mobile-only {
-        height: 150px;
-        animation: infinite-shift-left 750s linear;
-      }
-    }
-    
-    @keyframes infinite-shift-left {
-      0% {
-        background-position: 50000px;
-      }
-      100% {
-        background-position: 0;
-      }
-    }
-  }
+		h2 {
+			text-align: center;
+		}
+
+		.work-background {
+			margin: 4rem 0;
+			@include mobile-only {
+				margin: 2rem 0;
+			}
+		}
+
+		.work-logos {
+			background: transparent url('../../images/logos/logos-bar.png') repeat-x
+				50% 0;
+			animation: infinite-shift-left 2500s linear;
+			height: 150px;
+			margin-top: 1.5rem;
+			@include mobile-only {
+				height: 150px;
+				animation: infinite-shift-left 750s linear;
+			}
+		}
+
+		@keyframes infinite-shift-left {
+			0% {
+				background-position: 50000px;
+			}
+			100% {
+				background-position: 0;
+			}
+		}
+	}
 }

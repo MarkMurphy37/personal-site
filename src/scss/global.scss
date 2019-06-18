@@ -1,4 +1,4 @@
-@import "./src/scss/variables";
+@import './src/scss/variables';
 
 html {
 	height: 100%;
@@ -35,27 +35,30 @@ a {
 }
 
 .blockquote {
-  background-color: #0e2439;
+	background-color: #0e2439;
 	border-left: 0.3rem solid #9cb3c9;
 	margin: 2rem 1.5rem;
-  padding: 0.5em 1.5rem;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  @include mobile-only {
-    margin: 1.5rem 0;
-  }
+	padding: 0.5em 1.5rem;
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+		0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+	@include mobile-only {
+		background-color: #1f364d;
+		margin: 1.5rem 0;
+	}
 
-  .blockquote-author {
-    text-align: right;
-    margin: 0;
-  }
+	.blockquote-author {
+		text-align: right;
+		margin: 0;
+	}
 }
 code {
-  background-color: #0e2439;
+	background-color: #0e2439;
 	border-left: 0.3rem solid #9cb3c9;
 	margin: 2rem 0;
-  padding: 0.5em 1.5rem;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  @include mobile-only {
-    margin: 1.5rem 0;
-  }
+	padding: 0.5em 1.5rem;
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+		0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+	@include mobile-only {
+		margin: 1.5rem 0;
+	}
 }
