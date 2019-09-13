@@ -16,14 +16,22 @@ const About = () => (
 				</h1>
 				<h2>
 					I'm a{' '}
-					<a href="https://www.linkedin.com/in/markrmurphy/">
+					<a
+						href="https://www.linkedin.com/in/markrmurphy/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						software developer
 					</a>{' '}
 					based in Northeast Ohio.
 				</h2>
 				<p>
 					I used to tackle people on the{' '}
-					<a href="https://www.youtube.com/watch?v=Y-VT93BWqbU" target="_blank">
+					<a
+						href="https://www.youtube.com/watch?v=Y-VT93BWqbU"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						football field
 					</a>
 					. <Emoji symbol="🏈" /> Nowadays, I tackle software projects instead.{' '}
@@ -32,12 +40,20 @@ const About = () => (
 				</p>{' '}
 				<p>
 					When I'm not coding or{' '}
-					<a href="https://twitter.com/MarkMurphy37" target="_blank">
+					<a
+						href="https://twitter.com/MarkMurphy37"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						tweeting
 					</a>
 					, you can find me on a sports field, reading a book,{' '}
-					<Emoji symbol="📚" /> or trying to level the playing field at{' '}
-					<a href="https://fullyequipped.co/" target="_blank">
+					<Emoji symbol="📚" /> or leveling the playing field at{' '}
+					<a
+						href="https://fullyequipped.co/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						FullyEquipped
 					</a>
 					. <Emoji symbol="🎒" />

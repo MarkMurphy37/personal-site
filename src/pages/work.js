@@ -25,27 +25,43 @@ const Work = () => (
 				</div>
 				<div className="work-background">
 					<p>
-						Even after taking my first programming class and building my first
-						computer in 2013, I had no idea my affinity for technology would
-						turn into a career. I started working as a{' '}
-						<a target="_blank" href="https://www.linkedin.com/in/markrmurphy/">
-							software developer
+						After taking my first programming class in 2013, I still didn't know
+						my affinity for technology would turn into a career. I accepted my
+						1st full-time gig as an{' '}
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.linkedin.com/in/markrmurphy/"
+						>
+							associate software developer
 						</a>{' '}
 						for{' '}
-						<a target="_blank" href="https://www.gm.com/">
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.gm.com/"
+						>
 							General Motors
 						</a>{' '}
 						in 2015 and the rest is history.
 					</p>
 					<p>
-						Since then, I've grown into a full-stack developer that is
-						comfortable using a variety of technologies. Whether I'm building a
-						web app in{' '}
-						<a target="_blank" href="https://reactjs.org/">
+						Since then I've grown comfortable working with a variety of
+						technologies as a full-stack developer and consultant. Whether I'm
+						building a web app in{' '}
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://reactjs.org/"
+						>
 							React
 						</a>{' '}
 						or a mobile app in{' '}
-						<a target="_blank" href="https://facebook.github.io/react-native/">
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://facebook.github.io/react-native/"
+						>
 							React Native
 						</a>
 						, I take each project as an opportunity to learn and do my best

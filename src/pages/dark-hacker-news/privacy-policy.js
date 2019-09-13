@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import { Link } from 'gatsby';
 import '../../scss/pages/dark-hacker-news/privacy-policy.scss';
 import Helmet from 'react-helmet';
 import Emoji from '../../components/emoji';

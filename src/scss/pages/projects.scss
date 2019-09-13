@@ -1,0 +1,63 @@
+@import './src/scss/variables';
+
+.projects-wrapper {
+	.projects-content {
+		padding: 2rem;
+		margin: 2rem auto 0 auto;
+		width: 90%;
+		max-width: 600px;
+		background-color: #1f364d;
+		box-sizing: border-box;
+		@include mobile-only {
+			background-color: #0e2439;
+			padding: 1rem;
+			margin: 0;
+			width: unset;
+		}
+
+		h1 {
+			margin: 0;
+			text-align: center;
+
+			@include mobile-only {
+				font-size: 1.75rem;
+			}
+		}
+
+		ul {
+			li {
+				line-height: 1.25rem;
+			}
+		}
+
+		.techreviewhq-screenshots {
+			display: flex;
+			flex-direction: column;
+			.screenshot {
+				width: 100%;
+				border-radius: 0.25rem;
+				margin-top: 1rem;
+
+				@include mobile-only {
+					width: 100%;
+				}
+			}
+		}
+
+		.dark-hacker-news-screenshots {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			.screenshot {
+				width: 48%;
+				border-radius: 1.5rem;
+
+				@include mobile-only {
+					width: 100%;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+}
