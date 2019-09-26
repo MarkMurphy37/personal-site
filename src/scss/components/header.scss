@@ -1,75 +1,77 @@
-@import "./src/scss/variables";
+@import './src/scss/variables';
 
 .header-wrapper {
-    background: #1f364d;
+	background: #1f364d;
 
-    .header-content {
-        margin: 0 auto;
-        padding: 1rem;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        box-sizing: border-box;
-    }
-    
-    .header-links {
-        font-size: 1.2rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        a {
-            color: #9cb3c9;
-            margin-left: 1rem;
-            text-decoration: none;
-            @include mobile-and-tablet-only {
-                svg {
-                    font-size: 1.2rem;
-                } 
+	.header-content {
+		margin: 0 auto;
+		padding: 1rem;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		box-sizing: border-box;
+	}
 
-                font-size: 0;
-            }
+	.header-links {
+		font-size: 1.2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		a {
+			color: #9cb3c9;
+			margin-left: 1rem;
+			text-decoration: none;
+			@include mobile-and-tablet-only {
+				svg {
+					font-size: 1.2rem;
+				}
 
-            &.active {
-                color: #f2f5f8;
-            }
+				font-size: 0;
+			}
 
-            &:hover {
-                color: #f2f5f8;
-            }
+			&.active {
+				color: #f2f5f8;
+			}
 
-            svg {
-                vertical-align: middle;
-            }
-        }
-    }
-    
-    .header-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #9cb3c9;
-        text-decoration: none;
-        margin: 0 1rem 0 0;
-        font-size: 1.17em;
-        
-        @include mobile-and-tablet-only {
-            font-size: 0;
-        }
+			&:hover {
+				color: #f2f5f8;
+			}
 
-        &:hover {
-            color: #f2f5f8;
-        }
+			svg {
+				vertical-align: middle;
+			}
+		}
+	}
 
-        &.active {
-            color: #f2f5f8;
-        }
-    
-        .header-avatar {
-            margin: 0 1rem 0 0;
-            background: center / contain no-repeat url("../../images/m-logo-small.png");
-            height: 35px;
-            width: 35px;
-        }
-    }
+	.header-title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #9cb3c9;
+		text-decoration: none;
+		margin: 0 1rem 0 0;
+		font-size: 1.17em;
+
+		@include mobile-and-tablet-only {
+			font-size: 0;
+		}
+
+		&:hover {
+			color: #f2f5f8;
+		}
+
+		&.active {
+			color: #f2f5f8;
+		}
+
+		.header-avatar {
+			margin: 0 1rem 0 0;
+			background: center / contain no-repeat
+				url('../../images/avatar-casual-thumbnail.png');
+			height: 35px;
+			width: 35px;
+			border: 1px solid #eff3f6;
+			border-radius: 50%;
+		}
+	}
 }
-
