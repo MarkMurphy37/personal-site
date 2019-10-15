@@ -1,45 +1,54 @@
 {
-  "name": "mark-murphy-personal-site",
-  "description": "Mark Murphy's personal site created with GatsbyJS.",
-  "version": "1.0.2",
-  "author": "Mark Murphy <Mark@MarkMurphy.io>",
-  "dependencies": {
-    "gatsby": "^2.3.33",
-    "gatsby-cli": "^2.7.47",
-    "gatsby-plugin-catch-links": "^2.0.13",
-    "gatsby-plugin-google-analytics": "^2.0.18",
-    "gatsby-plugin-manifest": "^2.0.29",
-    "gatsby-plugin-offline": "^2.0.25",
-    "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-sass": "^2.0.11",
-    "gatsby-plugin-sharp": "^2.0.35",
-    "gatsby-remark-images": "^3.0.11",
-    "gatsby-remark-reading-time": "^1.0.1",
-    "gatsby-source-filesystem": "^2.0.32",
-    "gatsby-transformer-remark": "^2.3.12",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
-    "react-icons": "^3.6.1",
-    "react-particles-js": "^2.6.0",
-    "typed.js": "^2.0.10"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+	"name": "mark-murphy-personal-site",
+	"description": "Mark Murphy's personal site created with GatsbyJS.",
+	"version": "1.0.2",
+	"author": "Mark Murphy <Mark@MarkMurphy.io>",
+	"dependencies": {
+		"gatsby": "^2.16.1",
+		"gatsby-cli": "^2.8.1",
+		"gatsby-plugin-catch-links": "^2.1.15",
+		"gatsby-plugin-google-analytics": "^2.1.23",
+		"gatsby-plugin-manifest": "^2.2.23",
+		"gatsby-plugin-offline": "^2.2.10",
+		"gatsby-plugin-react-helmet": "^3.1.13",
+		"gatsby-plugin-sass": "^2.1.20",
+		"gatsby-plugin-sharp": "^2.2.31",
+		"gatsby-remark-images": "^3.1.28",
+		"gatsby-remark-reading-time": "^1.0.1",
+		"gatsby-source-filesystem": "^2.1.33",
+		"gatsby-transformer-remark": "^2.6.30",
+		"node-sass": "^4.12.0",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
+		"react-helmet": "^5.2.0",
+		"react-icons": "^3.6.1",
+		"react-particles-js": "^2.7.0",
+		"react-scripts": "^3.2.0",
+		"typed.js": "^2.0.11"
+	},
+	"keywords": [
+		"gatsby"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "gatsby build",
+		"develop": "gatsby develop",
+		"format": "prettier --write '**/*.js'",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"storybook": "NODE_ENV=production start-storybook -s public",
+		"build-storybook": "NODE_ENV=production build-storybook -s public"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.4",
+		"@storybook/addon-actions": "^5.2.4",
+		"@storybook/addon-links": "^5.2.4",
+		"@storybook/addons": "^5.2.4",
+		"@storybook/react": "^5.2.4",
+		"babel-loader": "^8.0.6",
+		"prettier": "^1.18.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gatsbyjs/gatsby-starter-default"
+	}
 }
