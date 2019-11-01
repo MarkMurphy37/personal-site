@@ -29,51 +29,6 @@ const Projects = () => (
 			</div>
 			<div className="projects-content">
 				<h1>
-					TechReviewHQ <Emoji symbol="📱" />
-				</h1>
-				<p>
-					TechReviewHQ is your tech review headquarters. <Emoji symbol="📡" />{' '}
-				</p>
-				<p>
-					We aggregate tech reviews from across the internet into one place,
-					whether from TechCrunch, The Verge, or MKBHD. Want to read the latest
-					reviews on a new tech product? <Emoji symbol="📱" />
-					You're in the right place.{' '}
-				</p>
-				<p>
-					Stay up-to-date on the latest tech reviews at{' '}
-					<a
-						href="https://TechReviewHQ.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						TechReviewHQ.com
-					</a>{' '}
-					or follow us on Twitter 👉{' '}
-					<a
-						className="twitter-handle"
-						target="_blank"
-						rel="noopener noreferrer"
-						href="https://twitter.com/TechReviewHQ"
-					>
-						@TechReviewHQ
-					</a>
-				</p>
-				<div className="techreviewhq-screenshots">
-					<img
-						className="screenshot"
-						src={require('../images/techreviewhq-1.png')}
-						alt="TechReviewHQ Screenshot"
-					/>
-					<img
-						className="screenshot"
-						src={require('../images/techreviewhq-2.png')}
-						alt="TechReviewHQ Screenshot"
-					/>
-				</div>
-			</div>
-			<div className="projects-content">
-				<h1>
 					Dark Hacker News <Emoji symbol="😈" />
 				</h1>
 				<p>
@@ -111,20 +66,29 @@ const Projects = () => (
 						alt="Dark Hacker News Screenshot"
 					/>
 				</div>
+			</div>
+			<div className="projects-content">
+				<h1>
+					TechReviewHQ <Emoji symbol="📱" />
+				</h1>
+				<p>Want to read the latest reviews on a new tech product?</p>
 				<p>
-					<strong>Features Include:</strong>
+					TechReviewHQ aggregates tech reviews from across the internet into one
+					place, whether from TechCrunch, The Verge, or MKBHD. TechReviewHQ is
+					your tech review headquarters. <Emoji symbol="📡" />{' '}
 				</p>
-				<ul>
-					<li>Dark theme for easy reading and browsing</li>
-					<li>View stories by Trending, New, Ask HN, and Show HN</li>
-					<li>Bookmark your favorite storiesand come back to them later</li>
-					<li>Share interesting stories you find with your friends</li>
-					<li>
-						Traverse the comments easily by collapsing them with a simple tap
-					</li>
-					<li>Viewed stories turn grey so you know where you've been</li>
-					<li>Theme switcher for when you're not feeling so dark</li>
-				</ul>
+				<div className="techreviewhq-screenshots">
+					<img
+						className="screenshot"
+						src={require('../images/techreviewhq-1.png')}
+						alt="TechReviewHQ Screenshot"
+					/>
+					<img
+						className="screenshot"
+						src={require('../images/techreviewhq-2.png')}
+						alt="TechReviewHQ Screenshot"
+					/>
+				</div>
 			</div>
 		</div>
 	</Layout>

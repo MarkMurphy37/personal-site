@@ -31,16 +31,16 @@ const IndexPage = () => (
 					Murph
 				</a>
 				, a full-stack software developer. <Emoji symbol="💻" /> Check out my
-				latest project
+				iOS app
 				{'  '}
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
-					href="https://techreviewhq.com"
+					href="https://apps.apple.com/us/app/dark-hacker-news/id1459946382"
 				>
-					TechReviewHQ
+					Dark Hacker News
 				</a>
-				.<Emoji symbol=" 📱" /> When I'm not coding, you can find me leveling
+				.<Emoji symbol=" 😈" /> When I'm not coding, you can find me leveling
 				the playing field at{' '}
 				<a
 					target="_blank"
