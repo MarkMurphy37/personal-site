@@ -1,10 +1,10 @@
-import React from 'react';
-import Layout from '../components/layout';
 import { Link } from 'gatsby';
-import '../scss/pages/index.scss';
-import '../scss/components/button.scss';
+import React from 'react';
 import Helmet from 'react-helmet';
 import Emoji from '../components/emoji';
+import Layout from '../components/layout';
+import '../scss/components/button.scss';
+import '../scss/pages/index.scss';
 
 const IndexPage = () => (
 	<Layout url={'/'}>
@@ -38,9 +38,9 @@ const IndexPage = () => (
 					rel="noopener noreferrer"
 					href="https://apps.apple.com/us/app/dark-hacker-news/id1459946382"
 				>
-					Dark Hacker News
+					Hacky
 				</a>
-				.<Emoji symbol=" 😈" /> When I'm not coding, you can find me leveling
+				!<Emoji symbol=" 🤖" /> When I'm not coding, you can find me leveling
 				the playing field at{' '}
 				<a
 					target="_blank"

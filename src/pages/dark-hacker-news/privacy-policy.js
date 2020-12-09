@@ -1,22 +1,22 @@
 import React from 'react';
-import Layout from '../../components/layout';
-import '../../scss/pages/dark-hacker-news/privacy-policy.scss';
 import Helmet from 'react-helmet';
 import Emoji from '../../components/emoji';
+import Layout from '../../components/layout';
+import '../../scss/pages/dark-hacker-news/privacy-policy.scss';
 
 const PrivacyPolicyPage = () => (
 	<Layout url={'/prvacy-policy'}>
 		<Helmet>
-			<title>Privacy Policy 🕵🏼‍ - Dark Hacker News</title>
+			<title>Privacy Policy 🕵🏼‍ - Hacky</title>
 		</Helmet>
 		<div className="privacy-policy-wrapper">
 			<div className="privacy-policy">
 				<h1>
-					Privacy Policy <Emoji symbol="🕵🏼‍" /> - Dark Hacker News
+					Privacy Policy <Emoji symbol="🕵🏼‍" /> - Hacky
 				</h1>
 				<p>
 					This policy applies to all information collected or submitted on the
-					Dark Hacker News iOS app.
+					Hacky iOS app.
 				</p>
 
 				<h2>Information we collect</h2>
@@ -41,10 +41,9 @@ const PrivacyPolicyPage = () => (
 
 				<h2>Third-party links and content</h2>
 				<p>
-					Dark Hacker News displays links and content from third-party
-					providers. These providers have their own independent privacy
-					policies, and we have no responsibility or liability for their content
-					or activities.
+					Hacky displays links and content from third-party providers. These
+					providers have their own independent privacy policies, and we have no
+					responsibility or liability for their content or activities.
 				</p>
 
 				<h2>California Online Privacy Protection Act Compliance</h2>
@@ -63,9 +62,9 @@ const PrivacyPolicyPage = () => (
 
 				<h2>Information for European Union Customers</h2>
 				<p>
-					By using Dark Hacker News and providing your information, you
-					authorize us to collect, use, and store your information outside of
-					the European Union.
+					By using Hacky and providing your information, you authorize us to
+					collect, use, and store your information outside of the European
+					Union.
 				</p>
 
 				<h2>International Transfers of Information</h2>

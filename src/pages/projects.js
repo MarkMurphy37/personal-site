@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../components/layout';
-import Emoji from '../components/emoji';
-import '../scss/pages/projects.scss';
 import Helmet from 'react-helmet';
+import Emoji from '../components/emoji';
+import Layout from '../components/layout';
+import '../scss/pages/projects.scss';
 
 const Projects = () => (
 	<Layout url={'/projects'}>
@@ -29,19 +29,18 @@ const Projects = () => (
 			</div>
 			<div className="projects-content">
 				<h1>
-					Dark Hacker News <Emoji symbol="😈" />
+					Hacky <Emoji symbol="🤖" />
 				</h1>
 				<p>
-					It's like normal Hacker News, but darker... and easier on the eyes.{' '}
 					<a
 						href="https://apps.apple.com/us/app/dark-hacker-news/id1459946382"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Dark Hacker News
+						Hacky
 					</a>{' '}
-					is a simple Dark-Themed Hacker News app for browsing Hacker News
-					stories and comments.
+					is a user-friendly Hacker News Reader for browsing Hacker News stories
+					and comments.
 				</p>
 				<p>
 					Download it on the iOS app store{' '}
@@ -57,13 +56,13 @@ const Projects = () => (
 				<div className="dark-hacker-news-screenshots">
 					<img
 						className="screenshot"
-						src={require('../images/dark-hacker-news-1.png')}
-						alt="Dark Hacker News Screenshot"
+						src={require('../images/hacky-2.png')}
+						alt="Hacky Screenshot"
 					/>
 					<img
 						className="screenshot"
-						src={require('../images/dark-hacker-news-2.png')}
-						alt="Dark Hacker News Screenshot"
+						src={require('../images/hacky-1.png')}
+						alt="Hacky Screenshot"
 					/>
 				</div>
 			</div>
@@ -77,6 +76,7 @@ const Projects = () => (
 					place, whether from TechCrunch, The Verge, or MKBHD. TechReviewHQ is
 					your tech review headquarters. <Emoji symbol="📡" />{' '}
 				</p>
+				<p>*TechReviewHQ is no longer active.</p>
 				<div className="techreviewhq-screenshots">
 					<img
 						className="screenshot"
