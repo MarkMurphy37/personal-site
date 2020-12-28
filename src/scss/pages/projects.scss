@@ -49,12 +49,13 @@
 			flex-direction: row;
 			justify-content: space-between;
 			flex-wrap: wrap;
+
 			.screenshot {
 				width: 48%;
 				border-radius: 1.5rem;
+				align-self: flex-start;
 
 				@include mobile-only {
-					height: auto;
 					width: 100%;
 					margin-bottom: 1rem;
 				}
